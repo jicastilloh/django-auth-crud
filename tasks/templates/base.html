@@ -17,22 +17,22 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/tasks/">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 
                 {% if user.is_authenticated %}
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/tasks/tasks">Tasks Pending</a>
+                    <a class="nav-link" href="/tasks">Tasks Pending</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/tasks/tasks_completed">Task Completed</a>
+                    <a class="nav-link" href="/tasks_completed">Task Completed</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/tasks/create_task">Create Task</a>
+                    <a class="nav-link" href="/create_task">Create Task</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/tasks/logout">Logout</a>
+                    <a class="nav-link" href="/logout">Logout</a>
                 </li>
                 
                 {% endif %}
